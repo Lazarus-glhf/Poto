@@ -6,7 +6,7 @@
 	url = https://github.com/Lazarus-glhf/glfw.git
 [submodule "Poto/vendor/imgui"]
 	path = Poto/vendor/imgui
-	url = git@github.com:Lazarus-glhf/imgui.git
+	url = https://github.com/Lazarus-glhf/imgui.git
 [submodule "Poto/vendor/glm"]
 	path = Poto/vendor/glm
-	url = git@github.com:g-truc/glm.git
+	url = https://github.com/g-truc/glm.git
