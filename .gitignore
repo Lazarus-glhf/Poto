@@ -13,6 +13,7 @@ Intermediates/
 **.vcxproj.filters
 **.vcxproj.user
 **.csproj
+**.idea
 
 # Directories
 Hazel/vendor/VulkanSDK
