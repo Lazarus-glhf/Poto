@@ -80,7 +80,7 @@ namespace Poto
 		{
 			PT_PROFILE_FUNCTION()
 
-				float time = (float)glfwGetTime();
+			float time = (float)glfwGetTime();
 			Timestep timestep = time - m_LastFrameTime;
 			m_LastFrameTime = time;
 
@@ -89,8 +89,10 @@ namespace Poto
 				{
 					PT_PROFILE_SCOPE("LayerStack OnUpdate")
 
-						for (Layer* layer : m_LayerStack)
-							layer->OnUpdate(timestep);
+					for (Layer* layer : m_LayerStack)
+					{
+						layer->OnUpdate(timestep);
+					}
 				}
 
 				m_ImGuiLayer->Begin();

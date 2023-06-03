@@ -35,5 +35,5 @@ void main()
 	float dist = 1.0f - distance(v_ScreenPos * 0.8f, vec2(0.0f));
 	dist = clamp(dist, 0.0f, 1.0f);
 	dist = sqrt(dist);
-	color = texture(u_Texture, v_TexCoord) * u_Color * dist;
+	color = texture(u_Texture, v_TexCoord) * u_Color;
 }
